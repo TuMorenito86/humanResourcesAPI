@@ -16,6 +16,8 @@ public class Empleado implements Serializable{
 	 */
 	private static final long serialVersionUID = -8938904262501923590L;
 	
+	//Este es el empleado de Entrada. (IN)
+	
 
 	@NonNull
 	@JsonProperty("id")

@@ -13,6 +13,7 @@ public class Empleado  implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = -7704741098124232069L;
+	//Este es el empleado de Salida. (OUT)
 	
 	
 	@NonNull
