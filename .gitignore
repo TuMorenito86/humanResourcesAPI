@@ -22,3 +22,12 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+target/
+prac_humanresourcesV1/.classpath
+prac_humanresourcesV1/.factorypath
+prac_humanresourcesV1/.project
+prac_humanresourcesV1/.settings/org.eclipse.core.resources.prefs
+prac_humanresourcesV1/.settings/org.eclipse.jdt.apt.core.prefs
+prac_humanresourcesV1/.settings/org.eclipse.jdt.core.prefs
+prac_humanresourcesV1/.settings/org.eclipse.m2e.core.prefs
