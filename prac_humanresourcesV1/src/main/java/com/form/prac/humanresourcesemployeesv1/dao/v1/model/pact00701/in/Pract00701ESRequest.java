@@ -6,7 +6,6 @@ import org.springframework.lang.NonNull;
 import org.springframework.validation.annotation.Validated;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.form.prac.humanresourcesemployeesv1.dao.v1.model.pract00701.in.Pract00701ESRequestGet;
 import com.form.prac.humanresourcesemployeesv1.utils.model.RequestTransaction;
 
 @Validated

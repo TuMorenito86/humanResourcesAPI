@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 import com.form.prac.humanresourcesemployeesv1.business.v1.dtos.BDtoOutGetEmployeesGet;
 import com.form.prac.humanresourcesemployeesv1.dao.v1.IHumanResourcesGetByIdEmployeesV1DAO;
 import com.form.prac.humanresourcesemployeesv1.dao.v1.mappers.DaoMapper;
-import com.form.prac.humanresourcesemployeesv1.dao.v1.model.pract00701.in.Pract00701ESRequestGet;
-import com.form.prac.humanresourcesemployeesv1.dao.v1.model.pract00701.out.Pract00701ESTransactionResponseGet;
+import com.form.prac.humanresourcesemployeesv1.dao.v1.model.pact00701.in.Pract00701ESRequest;
+import com.form.prac.humanresourcesemployeesv1.dao.v1.model.pact00701.out.Pract00701ESTransactionResponseGet;
 import com.form.prac.humanresourcesemployeesv1.utils.IServicioTransacciones;
 
 @Component
@@ -28,7 +28,7 @@ public class HumanResourcesGetByIdEmployeesV1DAO implements IHumanResourcesGetBy
 		// Mapper dto externo a dto intetno/negocio
 		// DDtoInObject -> DaoInObject
 		DaoMapper mapper = Mappers.getMapper(DaoMapper.class);
-		Pract00701ESRequestGet request = mapper.mapBDtoToPract00701ESRequestGet(employeeId);
+		Pract00701ESRequest request = mapper.mapBDtoToPract00701ESRequestGet(employeeId);
 
 		// llamada a backend
 		Pract00701ESTransactionResponseGet response = (Pract00701ESTransactionResponseGet)servicioTransacciones.invocar("PRACT027-01-ES", request, Pract00701ESTransactionResponseGet.class);
