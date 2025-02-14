@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.form.prac.humanresourcesemployees</groupId>
 	<artifactId>prac_humanresourcesV1</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>prac_humanresourcesV1</name>
 	<description>Practica de capas de servicio ASO</description>
 	<url />
