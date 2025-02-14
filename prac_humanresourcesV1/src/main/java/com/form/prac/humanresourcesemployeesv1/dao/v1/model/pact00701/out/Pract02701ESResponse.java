@@ -1,4 +1,4 @@
-package dao.v1.model.pact00701.out;
+package com.form.prac.humanresourcesemployeesv1.dao.v1.model.pact00701.out;
 
 import java.io.Serializable;
 import java.util.Objects;
@@ -7,21 +7,22 @@ import org.springframework.lang.NonNull;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Pract00701ESResponse implements Serializable{
+public class Pract02701ESResponse implements Serializable {
 	
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 5880229918623222119L;
+	private static final long serialVersionUID = -3896937678987543401L;
+	
 	@NonNull
-	@JsonProperty("createEmpleadoResponse")
-	private Empleado empleado;
+	@JsonProperty("empleado")
+	private EmpleadoList empleado;
 
-	public Empleado getEmpleado() {
+	public EmpleadoList getEmpleado() {
 		return empleado;
 	}
 
-	public void setEmpleado(Empleado empleado) {
+	public void setEmpleado(EmpleadoList empleado) {
 		this.empleado = empleado;
 	}
 
@@ -38,13 +39,13 @@ public class Pract00701ESResponse implements Serializable{
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Pract00701ESResponse other = (Pract00701ESResponse) obj;
+		Pract02701ESResponse other = (Pract02701ESResponse) obj;
 		return Objects.equals(empleado, other.empleado);
 	}
 
 	@Override
 	public String toString() {
-		return "Pract00701ESResponse [empleado=" + empleado + "]";
+		return "Pract02701ESResponse [empleado=" + empleado + "]";
 	}
 
 }

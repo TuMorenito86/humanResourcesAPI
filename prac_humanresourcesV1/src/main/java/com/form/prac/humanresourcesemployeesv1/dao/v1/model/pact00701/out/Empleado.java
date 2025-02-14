@@ -1,4 +1,4 @@
-package dao.v1.model.pact00701.out;
+package com.form.prac.humanresourcesemployeesv1.dao.v1.model.pact00701.out;
 
 import java.io.Serializable;
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package dao.v1.model.pact00701.in;
+package com.form.prac.humanresourcesemployeesv1.dao.v1.model.pact00701.in;
 
 import java.util.Objects;
 

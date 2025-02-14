@@ -1,24 +1,26 @@
-package dao.v1.model.pact00701.out;
+package com.form.prac.humanresourcesemployeesv1.dao.v1.model.pact00701.out;
 
 import java.io.Serializable;
 import java.util.Objects;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Pract00701ESTransactionResponseGet implements Serializable{
+public class Pract02701ESTransactionResponse implements Serializable{
+	
 	
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -7367106003085439500L;
+	private static final long serialVersionUID = 5045180429797410507L;
+	
 	@JsonProperty("data")
-	Pract00701ESResponse data;
+	Pract02701ESResponse data;
 
-	public Pract00701ESResponse getData() {
+	public Pract02701ESResponse getData() {
 		return data;
 	}
 
-	public void setData(Pract00701ESResponse data) {
+	public void setData(Pract02701ESResponse data) {
 		this.data = data;
 	}
 
@@ -35,13 +37,14 @@ public class Pract00701ESTransactionResponseGet implements Serializable{
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Pract00701ESTransactionResponseGet other = (Pract00701ESTransactionResponseGet) obj;
+		Pract02701ESTransactionResponse other = (Pract02701ESTransactionResponse) obj;
 		return Objects.equals(data, other.data);
 	}
 
 	@Override
 	public String toString() {
-		return "Pract00701ESTransactionResponse [data=" + data + "]";
+		return "Pract02701ESTransactionResponse [data=" + data + "]";
 	}
+
 
 }
