@@ -8,5 +8,5 @@ import com.form.prac.humanresourcesemployeesv1.dao.v1.model.pract01701.out.Emple
 @org.mapstruct.Mapper
 public class DaoMapper {
 
-	List<BDtoOutListEmployeesGet> mapBackendRestponseToListBDtoOut(List<Empleado> list);
+	//List<BDtoOutListEmployeesGet> mapBackendRestponseToListBDtoOut(List<Empleado> list);
 }
