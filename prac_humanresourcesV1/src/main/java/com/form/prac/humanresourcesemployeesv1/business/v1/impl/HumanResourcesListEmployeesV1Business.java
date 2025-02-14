@@ -24,7 +24,8 @@ public class HumanResourcesListEmployeesV1Business implements IHumanResourcesLis
 	public List<BDtoOutListEmployeesGet> humanResourcesListEmployeesV1(Long managerId, DtoInListEmployeesDepartmentIdEnum departmentId,
 			DtoInListEmployeesJobIdEnum jobId) {
 		LOGGER.info("humanResourcesListEmployeesV1 - in {} {} {}", managerId, departmentId, jobId);
-		List<BDtoOutListEmployeesGet> bDtoOut = null;
+		//Se añade la llamada
+		List<BDtoOutListEmployeesGet> bDtoOut = daoSrv.humanResourcesListEmployeesV1(managerId, departmentId, jobId);
 		LOGGER.info("humanResourcesListEmployeesV1 - out {}", bDtoOut);
 		return bDtoOut;
 	}
